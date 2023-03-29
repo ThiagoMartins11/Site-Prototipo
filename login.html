@@ -10,16 +10,21 @@
 <body>
     <div class="container">
         <div class="form-image">
-            <img src="img/undraw_pair_programming_re_or4x.svg" alt="Imagem">
+            <img src="img/animated-svg.svg" alt="Imagem">
         </div>
         <div class="form">
             <form action="#">
-                <div class="select">
-                    <select name="selecionar_usuario" id="select_id">
-                        <option value="default">Usuario...</option>
-                        <option value="Aluno">Aluno</option>
-                        <option value="Professor">Professor</option>
-                    </select>
+                <div class="select_usuario_box">
+                <div class="input_select_usuario">
+                    <input type="radio" id="Aluno" name="Check_option">
+                    <label for="Aluno">Aluno</label>
+                </div>
+
+                <div class="input_select_usuario">
+                    <input type="radio" id="Professor" name="Check_option">
+                    <label for="Professor">Professor</label>
+                </div>
+
                 </div>
                 <div class="form-header">
                     <div class="title">
@@ -29,11 +34,11 @@
                 <div class="input-group">
                     <div class="input-box">
                         <label for="Usuario">Usuario</label>
-                        <input id="Usuario" type="text" name="Usuario" placeholder="Digite o nome de usuario..." required>
+                        <input id="Usuario" type="email" name="Usuario" placeholder="Digite o nome de usuario..." required>
                     </div>
                     <div class="input-box">
                         <label for="Senha">Senha</label>
-                        <input id="Senha" type="text" name="Senha" placeholder="Digite a senha..." required>
+                        <input id="Senha" type="password" name="Senha" placeholder="Digite a senha..." required>
                     </div>
                 </div>
                 <div class="esquceu-senha">
