@@ -41,6 +41,10 @@ a{
     letter-spacing: 2px;
 }
 
+.titulo-cor{
+    color: #85a6f3;
+}
+
 /* Navbar */
 header{
     background: #111;
