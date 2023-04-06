@@ -18,7 +18,7 @@ body{
 
 .container{
     width: 80%;
-    height: 87vh;
+    height: 90vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
@@ -47,7 +47,7 @@ body{
 }
 
 .form-header{
-    margin-bottom: 2rem;
+    margin-bottom: 1.7rem;
     display: flex;
     justify-content: space-between;
 }
@@ -85,6 +85,18 @@ body{
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
+}
+
+.select_usuario_box{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 0.20rem;
+}
+
+.select_usuario_box label{
+    font-size: 0.95rem;
+    font-weight: 550;
+    color: #555;
 }
 
 .input-group{
@@ -149,9 +161,23 @@ body{
     color: #000000c0;
 }
 
+.resultado{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+    height: 35px;
+    background-color: #fde3a7d7;
+    border-radius: 4px;
+}
+.resultado span{
+    color: #555;
+    padding-left: 0.50rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 .continue-button button{
     width: 100%;
-    margin-top: 2rem;
     border: none;
     background-color: #86a7f5;
     padding: 0.65rem;
